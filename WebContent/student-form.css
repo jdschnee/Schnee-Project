@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+.error {
+	color: red;
+}
+
+body{
+	color:black;
+	background: url(UNO2.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    /*background-attachment: scroll;*/
+    background-size:auto;
+}
+
+	#topdiv {
+	min-width: 406px;	
+	background-color: black; 
+	height: 35px; 
+	width: 100%;
+	padding-top: 10px;
+	color: #ffffff; 
+	}
+
+	#topdiv a {
+		color: red; 
+		padding: 5px; 
+		text-decoration: none;
+		margin-bottom: 10vh;
+	}
+
+	/* Make top nav fixed. 
+	I adjust margin on #heading-text since setting .topdiv to fixed, effects the flow of the page.*/
+		
+	#topdiv {
+		position: fixed;
+		top: 0px;
+		z-index: 10;
+	}

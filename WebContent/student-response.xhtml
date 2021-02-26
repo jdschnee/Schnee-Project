@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+	
+	
+<head>
+	<title>Student Confirmation</title>
+	<link href='student-response.css' rel='stylesheet' type='text/css'/>
+</head>
+
+<h:body >
+
+	
+	<div id="UNO2-div">
+	Student Confirmed: #{student.firstName} #{student.lastName}
+	<br />
+	<br />
+	Student's ID#: #{student.id}
+	<br />
+	<br />
+	Student's GPA: #{student.gpa}
+	<br />
+	<br />
+	Student's Phone #: #{student.phoneNumber}
+	<br />
+	<br />
+	Student's Course Code: #{student.courseCode}
+	<br />
+	<br />
+	Student's Nationality: #{student.country}
+	<br />
+	<br />
+	Student's Favorite Language: #{student.language}
+	<br />
+	<br />
+	Languages Student Has Experience With:
+	<ul>
+		
+		<ui:repeat value="#{student.favoriteLanguages}" var="tempLanguage">
+			<p><li>- #{tempLanguage}</li></p>
+		</ui:repeat>
+
+	</ul>
+
+	</div>
+
+
+	<div id="topdiv">
+		<span style="padding-left: 20px; font-size: 1em; letter-spacing: 2px;"><a
+			href="welcome.jsp">HOME</a></span> 
+	</div>
+
+
+
+	<!-- container -->
+	<div style="width: 100%; margin-left: auto; margin-right: auto;">
+
+		<div id="uno-div">
+		<h1 id="unosemester" 
+		style="">Thank you for taking your time to complete the survey!</h1>
+		<br></br>
+		</div>
+
+
+		<div id="pagefooter">All UNO RIGHTS RESERVED</div>
+			
+		</div>
+
+</h:body>
+</html>
