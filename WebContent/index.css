@@ -108,31 +108,31 @@
 
 
 	/* Set the attachment to 'fixed' for simple parallax scrolling. */
-	#uno-div {
+	#study-div {
 		margin-top: 50px; 
 		margin-left: auto; 
 		margin-right: auto; 
 		text-align: center;
 		height: 85vh;
 		width: 100%;
-		background: url(UNO5.jpg);
+		background: url(STUDY1.jpg);
 	    background-repeat: no-repeat;
-	    background-position: bottom bottom;
+	    background-position: center;
 	    /*background-position: center center;*/
 	    background-attachment: fixed;
 	    /*background-attachment: scroll;*/
-	    background-size:cover;
+	    background-size: cover
 	    /*border-radius: 25px;*/
 	}
 
-	#unosemester {
+	#study {
 		position: relative;
 		top: 50%;
 	 	transform: translateY(-50%);
 	 	color: red;
-	 	font-family: 'Playfair Display SC', serif;
-	 	font-size: 9vw;
-	 	opacity: 0.7;
+	 	font-family: 'Monospace', serif;
+	 	font-size: 3vw;
+	 	opacity: 0.5;
 	 	letter-spacing: 20px; /*or use 2vw so fonts won't stack. In other words, px forces font stacking.*/
 	 	text-shadow: 2px 2px #000000;
 	 	}

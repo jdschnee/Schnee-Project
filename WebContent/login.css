@@ -79,13 +79,13 @@
 	background-color: black; 
 	height: 35px; 
 	width: 100%;
-	padding-top: 10px;
+	padding: 10px;
 	color: #ffffff; 
 	}
 
 	#topdiv a {
-		color: red; 
-		padding: 5px; 
+		color: hsl(58, 89%, 93%);
+		padding: 5px;
 		text-decoration: none;
 	}
 
@@ -111,16 +111,16 @@
 
 
 	/* Set the attachment to 'fixed' for simple parallax scrolling. */
-	#uno-div {
+	#study-div {
 		margin-top: 50px; 
 		margin-left: auto; 
 		margin-right: auto; 
 		text-align: center;
 		height: 85vh;
 		width: 100%;
-		background: url(UNO6.jpg);
+		background: url(STUDY2.jpg);
 	    background-repeat: no-repeat;
-	    background-position: bottom bottom;
+	    background-position: center;
 	    /*background-position: center center;*/
 	    background-attachment: fixed;
 	    /*background-attachment: scroll;*/
@@ -128,13 +128,13 @@
 	    /*border-radius: 25px;*/
 	}
 
-	#unosemester {
+	#study {
 		position: relative;
 		top: 50%;
 	 	transform: translateY(-50%);
 	 	color: red;
 	 	font-family: 'Playfair Display SC', serif;
-	 	font-size: 9vw;
+	 	font-size: 5vw;
 	 	opacity: 0.7;
 	 	letter-spacing: 20px; /*or use 2vw so fonts won't stack. In other words, px forces font stacking.*/
 	 	text-shadow: 2px 2px #000000;

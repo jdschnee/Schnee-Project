@@ -16,9 +16,9 @@
 
 <br><br><br>
 
-<form action="SignUp" method="post" style="padding-left: 40vw; font-size: larger;">
+<form action="SignUp" method="post" style="padding-left: 15vw; font-size: larger;">
     <p>
-      <label >Enter Username for New Account:</label>
+      <label>Enter Username for New Account:</label>
       <input type="text" name="un">
     </p>
     <p>
@@ -36,11 +36,11 @@
 <div style="width: 100%; margin-left: auto; margin-right: auto;">
 
 	<div id="uno-div">
-		<h1 id="unosemester" >University of Nebraska at Omaha</h1><br><br>
+		
 	</div>
 
 
-<div id="pagefooter">All UNO RIGHTS RESERVED</div>
+<div id="pagefooter">All STUDYSMART FLASH CARDS RIGHTS RESERVED</div>
 
 </div>
 </body>

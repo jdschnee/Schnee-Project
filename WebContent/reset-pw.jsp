@@ -31,11 +31,11 @@
 <form action="ResetPW" method="post" style="color: black; 
 		padding-left: 40vw; padding-top:40vh; font-weight:bold; font-size: larger;">
 	    <p>
-	      <label>Username:</label>
+	      <label style="color: white">Username:</label>
 	      <input type="text" name="un" value="${un}" readonly>
 	    </p>
 	    <p>
-	      <label>Enter New Password:</label>
+	      <label style="color: white">Enter New Password:</label>
 	      <input type="password" name="pw">
 	    </p>
 	    <p>

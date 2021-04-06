@@ -16,7 +16,7 @@
 
 <br><br><br>
 
-<form action="Login" method="post" style="padding-left: 20vw; font-size: larger;">
+<form action="Login" method="post" style="padding-left: 15vw; font-size: larger;">
     <p>
       <label >Enter Username:</label>
       <input type="text" name="un" value="${un}">
@@ -35,8 +35,8 @@
 <!-- container -->
 <div style="width: 100%; margin-left: auto; margin-right: auto;">
 
-	<div id="uno-div">
-		<h1 id="unosemester" >University of Nebraska at Omaha</h1><br><br>
+	<div id="study-div">
+		<h1 id="study">Why Study Hard When You Can StudySmart?</h1><br>
 	</div>
 
 

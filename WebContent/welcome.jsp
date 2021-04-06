@@ -25,7 +25,7 @@
 
 	<div id="topdiv">
 		<span style="padding-left: 20px; font-size: 1em; letter-spacing: 2px;"><a href="#">HOME</a></span>
-		<span style="float: right; padding-right: 20px;"><a href="student-form.xhtml">Student Survey</a> | <a href="reset-pw.jsp">Change
+		<span style="float: right; padding-right: 20px;"><a href="student-form.xhtml">Study Decks</a> | <a href="reset-pw.jsp">Change
 				Password</a> | <a href="Logout">Log Out</a></span>
 	</div>
 
@@ -36,25 +36,14 @@
 
 		<div id="heading-text">
 			<h2>Welcome Back ${un}</h2>
-			<p>We Missed You!</p>
+			<p style="font-weight: bold">We Missed You!</p>
 		</div>
-
-		<div id="uno-div">
-			<h1 id="unosemester" style="">Summer's Almost Here!</h1>
-		</div>
-
 
 
 		<div id="bottomcontainer">
 
 			<div id="leftside">
-				<h2>Changes for Upcoming Fall Semester</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<h2>WHAT IS ACTIVE RECALL?</h2>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -76,7 +65,7 @@
 			</div>
 
 			<div id="rightside">
-				<h2>Upcoming Events</h2>
+				<h2>WHY USE STUDYSMART?</h2>
 				<p>Old-school two column - dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -155,16 +144,15 @@
 
 		</div>
 
-
 		<div id="video">
-			<iframe width="80%" height="315" src="https://www.youtube.com/embed/BxNfk0anhJo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
+			<iframe width="80%" height="315" src="https://www.youtube.com/embed/5qap5aO4i9A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;
 	 picture-in-picture" allowfullscreen>
 			</iframe>
-			<h3 style="margin-top: 25px;">STAY STRONG MAVERICKS</h3>
+			<h3 style="margin-top: 25px;">STUDY SMARTER NOT HARDER</h3>
 		</div>
 
 
-		<div id="pagefooter">All UNO RIGHTS RESERVED</div>
+		<div id="pagefooter">All STUDYSMART FLASH CARDS RIGHTS RESERVED</div>
 
 	</div>
 	<c:set var="un" value="${un}" scope="session" />
