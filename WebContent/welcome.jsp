@@ -26,7 +26,7 @@
 	<div id="topdiv">
 		<span style="padding-left: 20px; font-size: 1em; letter-spacing: 2px;"><a href="#">HOME</a></span>
 		<span style="float: right; padding-right: 20px;"><a href="student-form.xhtml">Study Decks</a> | <a href="reset-pw.jsp">Change
-				Password</a> | <a href="Logout">Log Out</a></span>
+				Password</a> | <a href="Logout">Log Out | <a href="Download.xhtml">Download</a></span>
 	</div>
 
 
